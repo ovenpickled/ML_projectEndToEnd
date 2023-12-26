@@ -2,7 +2,7 @@ from setuptools import find_packages,setup
 from typing import List
 
 
-HYPHEN_E_DOT = '-e .'
+HYPHEN_E_DOT = '-e .'  ## -e . is used to connect and initialize the setup.py file with requirements file
 def get_requirements(file_path:str)->List[str]:
     '''
     This function returns the list of requirements
