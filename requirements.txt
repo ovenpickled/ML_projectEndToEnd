@@ -3,4 +3,10 @@ keras
 numpy
 seaborn
 scikit-learn
+matplotlib
+catboost
+xgboost
+Flask
+dill
+
 #-e .
